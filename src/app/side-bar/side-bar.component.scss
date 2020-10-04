@@ -1,0 +1,53 @@
+.caption{
+  color: rgb(186, 177, 177);
+  margin: 10px;
+}
+
+.active{
+  background-color: #ffebda;
+
+}
+.aside-item{
+  transition: .5s ease-in;
+  text-align: center;
+padding: 4px 0px;
+}
+.aside-item:hover{
+  background-color: #ffebda;
+}
+.aside-item-content{
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  width: 100%;
+  margin: 4px 0;
+  justify-self: start;
+}
+.aside-item p,.aside-item i{
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-top: 10px;
+}
+
+.tow-item{
+  justify-content: flex-start;
+  display: flex;
+  height: 40px;
+  width: 100%;
+  margin: 4px 0;
+}
+
+.one-word{
+  text-decoration: underline;
+}
+.head-item{
+  display: inline-block;
+}
+// .mat-expansion-panel p{
+//   background-color: red;
+// }
+
+
+// .mat-accordion{
+//   background-color: blue;
+// }

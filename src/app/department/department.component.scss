@@ -1,0 +1,58 @@
+
+.container{
+  width: 80%;
+  margin: 100px;
+}
+
+h4 span{
+color: lightgrey;
+}
+// .counter-box
+// {
+//   display: flex;
+//   width: 23%;
+//   justify-content: space-between;
+// }
+// .counter-box
+// input{
+//   width: 60px;
+// }
+.header-department{
+  display: flex;
+  justify-content: space-between;
+}
+.departmentBtn{
+  background-color: #ff9b44;
+  border-color: #ff9b44;
+  border-radius: 20px;
+  padding: 10px 30px;
+  outline: unset;
+  outline-color: #ff9b44;
+  color: #fff;
+  text-transform: capitalize;
+
+}
+.departmentBtn span{
+  margin-right: 10px;
+}
+
+.department-input-box{
+  margin: 20px;
+}
+.department-input-box input{
+  width: 80%;
+}
+.btn-success{
+  background-color: #ff9b44;
+  border-color: #ff9b44;
+outline-color: #ff9b44;
+width: 74%;
+margin: 17px;
+}
+
+.table-contaier{
+  margin-top: 40px;
+}
+input{
+  width: 50%;
+}
